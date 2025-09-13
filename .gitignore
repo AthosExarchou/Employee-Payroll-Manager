@@ -1,0 +1,30 @@
+# Compiled COBOL executables
+*.o
+*.obj
+*.exe
+*.x
+
+# Temporary files created by GnuCOBOL during compilation
+*.lst
+*.gcov
+*.cob.tmp
+*.cbl.tmp
+
+# Output files
+report.txt
+error.log
+
+# Python virtual environment
+COBOLenv/
+__pycache__/
+*.pyc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor-specific files
+*.vscode/
+*.idea/
+*.swp
+*.swo
